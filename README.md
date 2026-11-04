@@ -1,8 +1,5 @@
 ## Adding DACCS to the PyPSA-Eur Belgium Tutorial
-
-How does the integration of cardon dioxide removal (CDR) into the EU ETS affect emissions abatement?
-
-While there are many things to take into account to answer this question, the following notebook is designed to simply begin with DACCS (Direct Air Carbon Capture and Storage) integration into a simple PyPSA-Eur electricity system example.
+The following notebook is designed as a proof of concept for integrating DACCS (Direct Air Carbon Capture and Storage) into a simple PyPSA-Eur electricity system example and analyzing emissions reductions with DACCS.
 
 This notebook goes through the following:
 
@@ -10,8 +7,8 @@ This notebook goes through the following:
 
 2. Calculating baseline operational CO2 emissions.
 
-3. Lowering the carbon emissions cap and recalculating the baseline system. 
+3. Lowering the carbon emissions cap and recalculating the baseline system.
 
-4. Adding DACCS as a load. 
+4. Integrating DACCS as a load into the network.
 
-5. Analyze the impact on electricity generation and net emissions.
+5. Compare the CO2 emissions before and after DACCS integration.
